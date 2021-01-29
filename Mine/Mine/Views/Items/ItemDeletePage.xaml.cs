@@ -47,7 +47,12 @@ namespace Mine.Views
             await Navigation.PopModalAsync();
         }
 
-        async void Cancel_Clicked(object sender, EventArgs e)
+        /// <summary>
+        /// Cancel the Page.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        async void CancelItem_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
